@@ -14,7 +14,17 @@ public class HelloWorldController {
 		modelAndView.setViewName("demo");
 
 		modelAndView.addObject("hello", "spring cloud");
-		
+
+		return modelAndView;
+	}
+	@RequestMapping("/h1")
+	public ModelAndView sayHello1() {
+		ModelAndView modelAndView = new ModelAndView();
+
+		modelAndView.setViewName("demo2");
+
+		modelAndView.addObject("hello", "spring cloud");
+
 		return modelAndView;
 	}
 }
