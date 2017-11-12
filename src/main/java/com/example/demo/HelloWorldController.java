@@ -15,6 +15,8 @@ public class HelloWorldController {
 
 		modelAndView.addObject("hello", "spring cloud");
 
+		int a = 10;
+		
 		return modelAndView;
 	}
 	@RequestMapping("/h1")
