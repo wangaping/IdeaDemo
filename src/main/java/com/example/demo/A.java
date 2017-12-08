@@ -7,5 +7,7 @@ public class A {
     private int c;
     private Integer vv;
 
+    private Integer aaaaaaaaaa;
+
     private Integer aaaa;
 }
