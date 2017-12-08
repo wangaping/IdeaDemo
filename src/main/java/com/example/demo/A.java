@@ -5,4 +5,5 @@ public class A {
 	private int b;
     private int d;
     private int c;
+    private Integer vv;
 }
