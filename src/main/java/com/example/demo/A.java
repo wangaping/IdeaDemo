@@ -6,6 +6,4 @@ public class A {
     private int d;
     private int c;
     private Integer vv;
-
-    private Integer aaa;
 }
